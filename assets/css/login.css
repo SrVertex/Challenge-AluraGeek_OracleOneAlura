@@ -1,0 +1,51 @@
+/*Main*/
+.login {
+    background-color: #F5F5F5;
+    display: flex;
+    height: 375px;
+}
+.login_container{
+    margin: auto auto;
+}
+.login_title {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+.login_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.emailClass, .passwordClass{
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    width: calc(100vw - 5rem);
+    padding: 0.75rem;
+}
+.login_enter{
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+    /*Cabeçalho*/
+    .header_container {
+        justify-content: flex-start;
+    }
+
+    /*Main*/
+    .emailClass, .passwordClass{
+        width: 50vw
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /*Main*/
+    .emailClass, .passwordClass{
+        width: calc(30vw)
+    }
+}
