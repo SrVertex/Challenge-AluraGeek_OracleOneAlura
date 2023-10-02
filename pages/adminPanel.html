@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="assets/img/control.png">
+        <title>Alura-Geek</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+        <link href="../assets/css/reset.css" rel="stylesheet">
+        <link href="../assets/css/main.css" rel="stylesheet">
+        <link href="../assets/css/footer.css" rel="stylesheet">
+        <link href="../assets/css/style.css" rel="stylesheet">
+        <link href="../assets/css/menuAdmin.css" rel="stylesheet">
+        
+    </head>
+
+
+    
+<body>
+
+
+
+
+    <header class="header">
+        <div class="header_container container">
+            <a class="header_logo" href="../index.html"><img src="../assets/img/logo.svg" alt="Logo AluraGeek"></a>
+            <a class="btn1 header_btnLogin" href="login.html">Login</a>
+            <div class="header_search">
+
+                <input class="search_input" type="search" placeholder="O que deseja encontrar?">
+
+                <img class="search_icon" src="../assets/img/search.svg" alt="Logo AluraGeek">
+            </div>
+
+
+        </div>
+
+
+    <main>
+        <section class="container">
+            <div class="proc__top">
+                <h2 class="title">Todos os produtos</h2>
+                <a class="proc_btnADD btn2" href="#">Adicionar produto</a>
+            </div>
+
+
+            <ul class="listProducts_">
+
+                <li class="item">
+                    <div class="prodic_app">
+                        <img class="prodic_img" src="../assets/img/products/games03.png" alt="Foto1">
+                        <div class="prodic_mudar">
+                            <a href="#"><img src="../assets/img/recicleBin.svg" alt="Deletar"></a>
+                            <a href="#"><img src="../assets/img/edit.svg" alt="Editar"></a>
+                        </div>
+                    </div>
+                    <div class="prodic_info">
+                        <p class="prodic_name">Produto XYZ</p>
+                        <h3 class="prodic_price">R$ 4160,00</h3>
+                    </div>  
+                </li>
+
+                <li class="item">
+                    <div class="prodic_app">
+                        <img class="prodic_img" src="../assets/img/products/games04.png" alt="Foto2">
+                        <div class="prodic_mudar">
+                            <a href="#"><img src="../assets/img/recicleBin.svg" alt="Deletar"></a>
+                            <a href="#"><img src="../assets/img/edit.svg" alt="Editar"></a>
+                        </div>
+
+                    </div>
+
+                    <div class="prodic_info">
+                        <p class="prodic_name">Produto XYZ</p>
+                        <h3 class="prodic_price">R$ 1240,00</h3>
+                    </div>
+                </li>
+
+
+                <li class="item">
+                    <div class="prodic_app">
+                        <img class="prodic_img" src="../assets/img/products/miscellaneous03.png" alt="Foto3">
+                        <div class="prodic_mudar">
+                            <a href="#"><img src="./../assets/img/recicleBin.svg" alt="Deletar"></a>
+                            <a href="#"><img src="./../assets/img/edit.svg" alt="Editar"></a>
+                        </div>
+                    </div>
+                    <div class="prodic_info">
+                        <p class="prodic_name">Produto XYZ</p>
+                        <h3 class="prodic_price">R$ 256,00</h3>
+                    </div>
+
+                </li>
+
+                <li class="item">
+                    <div class="prodic_app">
+                        <img class="prodic_img" src="../assets/img/products/star03.svg" alt="Foto43">
+                        <div class="prodic_mudar">
+                            <a href="#"><img src="./../assets/img/recicleBin.svg" alt="Deletar"></a>
+                            <a href="#"><img src="./../assets/img/edit.svg" alt="Editar"></a>
+                        </div>
+                    </div>   
+                    <div class="prodic_info">
+                        <p class="prodic_name">Produto XYZ</p>
+                        <h3 class="prodic_price">R$ 245,00</h3>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_container container">
+
+            <section class="footer_about">
+                <img class="footer_img" src="../assets/img/logo.svg" alt="Icone AluraGeek">
+                <ul class="footerList_container">
+                    <li class="footerList_item">Quem Somos</li>
+
+                    <li class="footerList_item">Política de Privacidade</li>
+
+                    <li class="footerList_item">Programa Fidelidade</li>
+
+                    <li class="footerList_item">Nossas LOJAS</li>
+
+                    <li class="footerList_item">Quero Ser Franqueado</li>
+
+                    <li class="footerList_item">ANUNCIE AQUI</li>
+
+
+                </ul>
+            </section>
+
+
+            <section class="footer_contact">
+                <h2 class="contat_title title">Fale conosco</h2>
+                <form class="footerForm" action>
+
+
+                    <div>
+                        <input name="nome" type="text" minlength="2" maxlength="38" required placeholder="Nome" class="formName">
+                        <span class="formError"></span>
+                    </div>
+
+                    <div>
+                        <textarea name="mensagem" type="text" minlength="7" maxlength="112" required placeholder="Escreva Sua Mensagem" class="formMensage"></textarea>
+                        
+                        <span class="formError"></span>
+                    </div>
+
+
+                    <input class="btn2" type="submit" send-mensage value="Enviar Mensagem">
+                </form>
+
+
+
+            </section>
+        </div>
+
+        <section class="forterBase">
+            <p class="forterTitle">Desenvolvido por SrVertex 2023 &copy;</p>
+        </section>
+    </footer>
+
+    <!-- Teste <script src="./js/formValidation.js"></script> -->
+
+    <script src="./js/formValidation.js"></script>
+
+</body>
+</html>
